@@ -77,7 +77,10 @@ p {
 }
 #leftColumn {
   margin: 10px 0 0 5px;
+}
+#navcolumn {
   border: 1px solid #999;
+  margin-bottom: 20px;
   background-color: #eee;
 }
 #navcolumn h5 {
