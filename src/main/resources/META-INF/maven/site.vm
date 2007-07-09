@@ -315,6 +315,18 @@
        #poweredByLogo( $decoration.poweredBy )
        #publishDate( "navigation-bottom" $decoration.publishDate $decoration.version )
       </div>
+      <!-- BEGIN AdSense Skyscraper -->
+      <script type="text/javascript"><!--
+        google_ad_client = "pub-4508505517273469";
+        google_alternate_color = "ffffff";
+        google_ad_width = 170;
+        google_ad_height = 600;
+        google_ad_format = "160x600_as";
+        google_ad_type = "text_image";
+        google_ad_channel ="4903171097";
+      //--></script>
+      <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+      <!-- END AdSense Skyscraper -->
     </div>
     <div id="bodyColumn">
       <div id="contentBox">
@@ -328,9 +340,7 @@
           google_ad_type = "text_image";
           google_ad_channel ="4903171097";
         //--></script>
-        <script type="text/javascript"
-          src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
         <!-- END AdSense Leaderboard -->
         $bodyContent
       </div>

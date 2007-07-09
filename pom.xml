@@ -1,9 +1,51 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.asteriskjava</groupId>
-  <artifactId>asterisk-java-skin</artifactId>
-  <version>0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-  <name>Asterisk-Java site skin</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.asteriskjava</groupId>
+	<artifactId>asterisk-java-skin</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<name>Asterisk-Java Site Skin</name>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<organization>
+		<name>Stefan Reuter</name>
+		<url>http://asterisk-java.org/</url>
+	</organization>
+	<inceptionYear>2006</inceptionYear>
+	<developers>
+		<developer>
+			<name>Stefan Reuter</name>
+			<id>srt</id>
+			<email>srt at users.sourceforge.net</email>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:svn:http://svn.reucon.net/repos/asterisk-java-skin/tags/asterisk-java-skin-1.0.0</connection>
+		<developerConnection>scm:svn:https://secure.reucon.net/svn/repos/asterisk-java-skin/tags/asterisk-java-skin-1.0.0</developerConnection>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>reucon-public-repository</id>
+			<url>scpexe://maven.reucon.com/var/www/maven.reucon.com/htdocs/public</url>
+		</repository>
+	</distributionManagement>
+	<issueManagement>
+		<system>JIRA</system>
+		<url>http://jira.reucon.org/secure/BrowseProject.jspa?id=10000</url>
+	</issueManagement>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<tagBase>https://secure.reucon.net/svn/repos/${artifactId}/tags</tagBase>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
