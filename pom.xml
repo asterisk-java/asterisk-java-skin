@@ -1,8 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.asteriskjava</groupId>
 	<artifactId>asterisk-java-skin</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Asterisk-Java Site Skin</name>
 	<licenses>
@@ -25,8 +26,8 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:svn:http://svn.reucon.net/repos/asterisk-java-skin/trunk</connection>
-		<developerConnection>scm:svn:https://secure.reucon.net/svn/repos/asterisk-java-skin/trunk</developerConnection>
+		<connection>scm:svn:http://svn.reucon.net/repos/${artifactId}/trunk</connection>
+		<developerConnection>scm:svn:https://secure.reucon.net/svn/repos/${artifactId}/trunk</developerConnection>
 	</scm>
 	<distributionManagement>
 		<repository>
