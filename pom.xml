@@ -30,12 +30,12 @@
 	</scm>
 	<distributionManagement>
 		<repository>
-			<id>reucon-public-repository</id>
-			<url>dav:https://secure.reucon.net/maven/public</url>
+			<id>reucon</id>
+			<url>https://secure.reucon.net/nexus/content/repositories/opensource</url>
 		</repository>
 		<snapshotRepository>
 			<id>reucon-public-snapshot-repository</id>
-			<url>dav:https://secure.reucon.net/maven/public-snapshot</url>
+			<url>https://secure.reucon.net/nexus/content/repositories/opensource-snapshot</url>
 		</snapshotRepository>
 		<site>
 			<id>asterisk-java-website</id>
