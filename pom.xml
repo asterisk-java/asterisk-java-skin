@@ -34,11 +34,11 @@
 			<url>https://secure.reucon.net/nexus/content/repositories/opensource</url>
 		</repository>
 		<snapshotRepository>
-			<id>reucon-public-snapshot-repository</id>
-			<url>https://secure.reucon.net/nexus/content/repositories/opensource-snapshot</url>
+			<id>reucon</id>
+			<url>https://secure.reucon.net/nexus/content/repositories/opensource-snapshots</url>
 		</snapshotRepository>
 		<site>
-			<id>asterisk-java-website</id>
+			<id>reucon</id>
 			<url>dav:https://secure.reucon.net/maven/projects/public/${artifactId}/${version}</url>
 		</site>
 	</distributionManagement>
